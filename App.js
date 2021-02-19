@@ -5,13 +5,13 @@ import { ImageBackground, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      
+
 
       <View style={styles.carContainer}>
 
-        <ImageBackground 
-        source={require('./assets/images/ModelX.jpeg')}
-        style={styles.image}
+        <ImageBackground
+          source={require('./assets/images/ModelX.jpeg')}
+          style={styles.image}
         />
 
         <View style={styles.titles}>
@@ -19,6 +19,7 @@ export default function App() {
           <Text style={styles.subtitle}>Starting at $69,420</Text>
         </View>
       </View>
+      
 
       <StatusBar style="auto" />
     </View>
