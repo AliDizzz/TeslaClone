@@ -1,10 +1,19 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Pressable} from 'react-native';
+import styles from '../Caritem/styles';
+import styles from './styles';
 
 const StyledButton = {props} => {
     return (
-        <View>
-            <Text>notJust a component</Text>
+        <View style={styles.container}>
+            <Pressable
+            style={styles.button}
+            onPress={() => {
+                console.warn( data: 'Hey there')
+            }}
+            >
+                <Text style={styles.text}>Custom Order</Text>
+            </Pressable>
         </View>
     );
 };
