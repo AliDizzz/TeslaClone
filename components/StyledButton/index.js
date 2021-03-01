@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Text, Pressable} from 'react-native';
-import styles from '../Caritem/styles';
 import styles from './styles';
 
 const StyledButton = {props} => {
