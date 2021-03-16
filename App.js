@@ -10,13 +10,13 @@ export default function App() {
     <View style={styles.container}>
       <CarsList />
 
-      <CarItem 
-      name={"Model X"} 
-      tagLine={"Order Online For"} 
-      tagLineCTA={"Touchless delivery"}
-      image={require('./assets/images/ModelX.jpeg')} 
+      <CarItem
+        name={"Model X"}
+        tagLine={"Order Online For"}
+        tagLineCTA={"Touchless delivery"}
+        image={require('./assets/images/ModelX.jpeg')}
       />
-      
+
 
       <StatusBar style="auto" />
     </View>
